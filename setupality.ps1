@@ -35,18 +35,16 @@ Add-AppxPackage -Path "Setup.msix"
 Remove-Item "Setup.msix"
 
 # Install apps with winget
-winget install --id=Git.Git --exact --accept-source-agreements --accept-package-agreements # git
-winget install --id=GitHub.GitHubDesktop --exact --accept-source-agreements --accept-package-agreements # github desktop
-winget install --id=Valve.Steam --exact --accept-source-agreements --accept-package-agreements # steam
-winget install --id=BraveSoftware.BraveBrowser --exact --accept-source-agreements --accept-package-agreements # brave
-winget install --id=Spotify.Spotify --exact --accept-source-agreements --accept-package-agreements # spotify
+winget install --id=Git.Git --exact # git
+winget install --id=GitHub.GitHubDesktop --exact # github desktop
+winget install --id=Valve.Steam --exact # steam
+winget install --id=BraveSoftware.BraveBrowser --exact # brave
+winget install --id=Spotify.Spotify --exact # spotify
 winget install --id=Microsoft.VisualStudioCode --exact --accept-source-agreements --accept-package-agreements # visual studio code
 
 # Install Python and Ruby
-winget install --id=Python.Python --exact --accept-source-agreements --accept-package-agreements # python
-winget install --id=RubyInstallerTeam.Ruby --exact --accept-source-agreements --accept-package-agreements # ruby
-winget install --id=9PC3H3V7Q9CH --exact --accept-source-agreements --accept-package-agreements # rufus
+winget install --id=Python.Python --exact # python
+winget install --id=RubyInstallerTeam.Ruby --exact # ruby
+winget install --id=9PC3H3V7Q9CH --exact # rufus
+winget install --id=Microsoft.Office --exact # Office Enterprise
 
-# Install VS Code extensions
-# You would need to list out all your extensions here
-# Example: code --install-extension ms-python.python
