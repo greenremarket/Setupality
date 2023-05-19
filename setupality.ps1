@@ -31,6 +31,7 @@ winget install --id=Microsoft.VisualStudioCode --exact # visual studio code
 # Install Python and Ruby
 winget install --id=Python.Python --exact # python
 winget install --id=RubyInstallerTeam.Ruby --exact # ruby
+winget install --id=9PC3H3V7Q9CH --exact # rufus
 
 # Install VS Code extensions
 # You would need to list out all your extensions here
