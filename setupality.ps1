@@ -5,9 +5,6 @@ if (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     Break
 }
 
-# Install the NVIDIA driver
-Start-Process -FilePath ".\NVIDIADriver.exe" -ArgumentList "-silent" -NoNewWindow -Wait
-
 # Install PSWindowsUpdate
 Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
 Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
