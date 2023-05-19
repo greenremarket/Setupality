@@ -1,5 +1,5 @@
 # Setupality
-Powershell script to automate post install stuff for new Windows workstation setups @ green remarket
+Powershell script install stuff on my new Windows setups
 
 Run this command from an Administrator terminal on a fresh install : 
 ```
