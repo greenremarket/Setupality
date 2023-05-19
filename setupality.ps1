@@ -44,7 +44,7 @@ winget install --id=Microsoft.VisualStudioCode --exact --accept-source-agreement
 
 # Install Python and Ruby
 winget install --id=9NRWMJP3717K --exact  --accept-source-agreements --accept-package-agreements  # python
-winget install --id=RubyInstallerTeam.Ruby --exact # ruby
+winget install RubyInstallerTeam.RubyWithDevKit.3.2 --exact # ruby
 winget install --id=9PC3H3V7Q9CH --exact # rufus
 winget install --id=Microsoft.Office --exact # Office Enterprise
 
