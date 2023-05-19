@@ -5,6 +5,8 @@ if (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     Break
 }
 
+ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
+ 
 # Install PSWindowsUpdate
 Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
 Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
