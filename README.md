@@ -1,5 +1,5 @@
 # Setupality
-Powershell script install stuff on my new Windows setups
+Powershell script to install common stuff I use on my new Windows setups
 
 Run this command from an Administrator terminal on a fresh install : 
 ```
