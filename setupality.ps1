@@ -50,7 +50,7 @@ winget install --id=XPDM17HK323C4X --exact --accept-source-agreements --accept-p
 winget install --id=XP89DCGQ3K6VLD --exact --accept-source-agreements --accept-package-agreements # Microsoft Power Toys
 
 # else
-winget install --id=BraveSoftware.BraveBrowser --exact # brave
+winget install --id=XP8C9QZMS2PC1T --exact  --accept-source-agreements --accept-package-agreements  # brave
 winget install --id=Spotify.Spotify --exact # spotify
 winget install --id=Valve.Steam --exact # steam
 
