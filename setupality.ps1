@@ -39,6 +39,7 @@ Remove-Item "Setup.msix"
 # Dev tools
 winget install --id=Git.Git --exact # git
 winget install --id=GitHub.GitHubDesktop --exact # Github Desktop
+winget install --id=OpenJS.NodeJS --exact # Node JS
 winget install --id=RubyInstallerTeam.RubyWithDevKit.3.2 --exact # ruby
 winget install --id=9NRWMJP3717K --exact  --accept-source-agreements --accept-package-agreements # python
 winget install --id=XP9KHM4BK9FZ7Q --exact --accept-source-agreements --accept-package-agreements # visual studio code
