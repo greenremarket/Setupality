@@ -63,6 +63,9 @@ winget install --id=Notepad++.Notepad++ --exact # Notepad++
 winget install --id=Valve.Steam --exact # steam
 winget install --id=ElectronicArts.EADesktop --exact # EA Desktop
 
+# hardware
+winget install CPUID.CPU-Z
+
 # else
 winget install --id=XP8C9QZMS2PC1T --exact  --accept-source-agreements --accept-package-agreements  # brave
 winget install --id=9NCBCSZSJRSB --exact --accept-source-agreements --accept-package-agreements # spotify
