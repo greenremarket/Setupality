@@ -35,16 +35,21 @@ Add-AppxPackage -Path "Setup.msix"
 Remove-Item "Setup.msix"
 
 # Install apps with winget
+
+# Dev tools
 winget install --id=Git.Git --exact # git
 winget install --id=GitHub.GitHubDesktop --exact # github desktop
-winget install --id=Valve.Steam --exact # steam
-winget install --id=BraveSoftware.BraveBrowser --exact # brave
-winget install --id=Spotify.Spotify --exact # spotify
-winget install --id=Microsoft.VisualStudioCode --exact --accept-source-agreements --accept-package-agreements # visual studio code
-
-# Install Python and Ruby
+winget install --id=XP9KHM4BK9FZ7Q --exact --accept-source-agreements --accept-package-agreements # visual studio code
 winget install --id=9NRWMJP3717K --exact  --accept-source-agreements --accept-package-agreements  # python
 winget install --id=RubyInstallerTeam.RubyWithDevKit.3.2 --exact # ruby
 winget install --id=9PC3H3V7Q9CH --exact # rufus
-winget install --id=Microsoft.Office --exact # Office Enterprise
+
+# system tools and utils
+winget install --id=XPDM17HK323C4X --exact --accept-source-agreements --accept-package-agreements # TeamViewer
+winget install --id=XP89DCGQ3K6VLD --exact --accept-source-agreements --accept-package-agreements # Microsoft Power Toys
+
+# else
+winget install --id=BraveSoftware.BraveBrowser --exact # brave
+winget install --id=Spotify.Spotify --exact # spotify
+winget install --id=Valve.Steam --exact # steam
 
