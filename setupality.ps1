@@ -47,6 +47,7 @@ winget install --id=XP9KHM4BK9FZ7Q --exact --accept-source-agreements --accept-p
 winget install --id=9PKR34TNCV07  --exact --accept-source-agreements --accept-package-agreements # Kali Linux
 winget install --id=Docker.DockerDesktop --exact # Docker Desktop
 winget install --id=Kubernetes.minikube --exact # minikube
+winget install --id=Hashicorp.Terraform --exact # terraform
 winget install --id=Kubernetes.kubectl --exact # kubectl
 
 # system tools and utils
