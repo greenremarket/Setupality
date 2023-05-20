@@ -51,6 +51,6 @@ winget install --id=XP89DCGQ3K6VLD --exact --accept-source-agreements --accept-p
 
 # else
 winget install --id=XP8C9QZMS2PC1T --exact  --accept-source-agreements --accept-package-agreements  # brave
-winget install --id=Spotify.Spotify --exact # spotify
+winget install --id=9NCBCSZSJRSB --exact --accept-source-agreements --accept-package-agreements # spotify
 winget install --id=Valve.Steam --exact # steam
 
