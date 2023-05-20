@@ -38,13 +38,14 @@ Remove-Item "Setup.msix"
 
 # Dev tools
 winget install --id=Git.Git --exact # git
-winget install --id=GitHub.GitHubDesktop --exact # github desktop
+winget install --id=GitHub.GitHubDesktop --exact # Github Desktop
 winget install --id=RubyInstallerTeam.RubyWithDevKit.3.2 --exact # ruby
-winget install --id=XP9KHM4BK9FZ7Q --exact --accept-source-agreements --accept-package-agreements # visual studio code
 winget install --id=9NRWMJP3717K --exact  --accept-source-agreements --accept-package-agreements # python
-winget install --id=9PC3H3V7Q9CH --exact --accept-source-agreements --accept-package-agreements # rufus
+winget install --id=XP9KHM4BK9FZ7Q --exact --accept-source-agreements --accept-package-agreements # visual studio code
+winget install --id=Docker.DockerDesktop --exact # Docker Desktop
 
 # system tools and utils
+winget install --id=9PC3H3V7Q9CH --exact --accept-source-agreements --accept-package-agreements # rufus
 winget install --id=9MZ1SNWT0N5D --exact --accept-source-agreements --accept-package-agreements # Update powershell from 5.0 to latest
 winget install --id=XPDM17HK323C4X --exact --accept-source-agreements --accept-package-agreements # TeamViewer
 winget install --id=XP89DCGQ3K6VLD --exact --accept-source-agreements --accept-package-agreements # Microsoft Power Toys
