@@ -49,6 +49,7 @@ winget install --id=9PC3H3V7Q9CH --exact --accept-source-agreements --accept-pac
 winget install --id=9MZ1SNWT0N5D --exact --accept-source-agreements --accept-package-agreements # Update powershell from 5.0 to latest
 winget install --id=XPDM17HK323C4X --exact --accept-source-agreements --accept-package-agreements # TeamViewer
 winget install --id=XP89DCGQ3K6VLD --exact --accept-source-agreements --accept-package-agreements # Microsoft Power Toys
+winget install --id=XP8K2L36VP0QMB --exact --accept-source-agreements --accept-package-agreements # KeePassXC
 winget install --id=Notepad++.Notepad++ --exact # Notepad++
 
 # gaming 
