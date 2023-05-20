@@ -42,7 +42,12 @@ winget install --id=GitHub.GitHubDesktop --exact # Github Desktop
 winget install --id=RubyInstallerTeam.RubyWithDevKit.3.2 --exact # ruby
 winget install --id=9NRWMJP3717K --exact  --accept-source-agreements --accept-package-agreements # python
 winget install --id=XP9KHM4BK9FZ7Q --exact --accept-source-agreements --accept-package-agreements # visual studio code
+
+# containers, VMs and devops tools
+winget install --id=9PKR34TNCV07  --exact --accept-source-agreements --accept-package-agreements # Kali Linux
 winget install --id=Docker.DockerDesktop --exact # Docker Desktop
+winget install --id=Kubernetes.minikube --exact # minikube
+winget install --id=Kubernetes.kubectl --exact # kubectl
 
 # system tools and utils
 winget install --id=9PC3H3V7Q9CH --exact --accept-source-agreements --accept-package-agreements # rufus
