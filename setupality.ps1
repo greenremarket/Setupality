@@ -37,6 +37,7 @@ Remove-Item "Setup.msix"
 # Install apps with winget
 
 # Dev tools
+winget install --id=vim.vim --exact # vim
 winget install --id=Git.Git --exact # git
 winget install --id=GitHub.GitHubDesktop --exact # Github Desktop
 winget install --id=OpenJS.NodeJS --exact # Node JS
