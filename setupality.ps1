@@ -4,7 +4,9 @@ if (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     Write-Output "You do not have Administrator rights to run this script!`nPlease re-run this script as an Administrator!"
     Break
 }
-
+# update help so Get-Help can provide help for any PowerShell instruction
+ Update-Help
+ 
  Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
  
 # Install PSWindowsUpdate
