@@ -55,6 +55,7 @@ winget install --id=Hashicorp.Terraform --exact # terraform
 winget install --id=Kubernetes.kubectl --exact # kubectl
 
 # system tools and utils
+winget install Microsoft.PCManager --exact --accept-source-agreements --accept-package-agreements # Microsoft PC Manager (beta)
 winget install --id=9PC3H3V7Q9CH --exact --accept-source-agreements --accept-package-agreements # rufus
 winget install --id=9MZ1SNWT0N5D --exact --accept-source-agreements --accept-package-agreements # Update powershell from 5.0 to latest
 winget install --id=XPDM17HK323C4X --exact --accept-source-agreements --accept-package-agreements # TeamViewer
