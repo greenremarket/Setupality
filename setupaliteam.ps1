@@ -58,6 +58,7 @@ winget install --id=Notepad++.Notepad++ --exact # Notepad++
 
 # hardware
 winget install CPUID.CPU-Z
+winget install --id=9P4PNDG7L782 --exact --accept-source-agreements --accept-package-agreements # hp pc hardware diagnostics window
 
 # else
 winget install --id=XP8C9QZMS2PC1T --exact  --accept-source-agreements --accept-package-agreements  # brave
