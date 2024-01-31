@@ -7,12 +7,8 @@ if (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 # update help so Get-Help can provide help for any PowerShell instruction
  Update-Help
  
- Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
- 
-# Install PSWindowsUpdate
-Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
-Install-Module PSWindowsUpdate -Force -Confirm:$false
 
 # Get updates
 Get-WUInstall -MicrosoftUpdate -AcceptAll -AutoReboot | Out-Null
@@ -60,7 +56,6 @@ winget install --id=9PC3H3V7Q9CH --exact --accept-source-agreements --accept-pac
 winget install --id=9MZ1SNWT0N5D --exact --accept-source-agreements --accept-package-agreements # Update powershell from 5.0 to latest
 winget install --id=XPDM17HK323C4X --exact --accept-source-agreements --accept-package-agreements # TeamViewer
 winget install --id=XP89DCGQ3K6VLD --exact --accept-source-agreements --accept-package-agreements # Microsoft Power Toys
-winget install --id=XP8K2L36VP0QMB --exact --accept-source-agreements --accept-package-agreements # KeePassXC
 winget install --id=Notepad++.Notepad++ --exact # Notepad++
 
 # gaming 
@@ -70,6 +65,16 @@ winget install --id=ElectronicArts.EADesktop --exact # EA Desktop
 # hardware
 winget install CPUID.CPU-Z
 
-# else
+# else 
 winget install --id=XP8C9QZMS2PC1T --exact  --accept-source-agreements --accept-package-agreements  # brave
+winget install --id=9WZDNCRD29V9 --exact --accept-source-agreements --accept-package-agreements # Microsoft 365
 winget install --id=9NCBCSZSJRSB --exact --accept-source-agreements --accept-package-agreements # spotify
+winget install --id=9NBLGGH5L9XT --exact --accept-source-agreements --accept-package-agreements # instagram
+winget install --id=9NBDXK71NK08 --exact --accept-source-agreements --accept-package-agreements # whatsapp beta
+winget install --id=9WZDNCRF0083 --exact --accept-source-agreements --accept-package-agreements # messenger
+winget install --id=9P4PNDG7L782 --exact --accept-source-agreements --accept-package-agreements # HP PC HARDWARE DIAGNOSTICS WINDOW
+
+
+# Install PSWindowsUpdate and install updates + reboot
+Install-Module PSWindowsUpdate -Force -Confirm:$false
+Get-WindowsUpdate -AcceptAll -Install -AutoReboot
