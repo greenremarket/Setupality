@@ -68,6 +68,7 @@ winget install --id=ElectronicArts.EADesktop --exact # EA Desktop
 winget install CPUID.CPU-Z
 
 # else 
+winget install --id=Asana.Asana --exact --accept-source-agreements --accept-package-agreements # asana
 winget install --id=XP8C9QZMS2PC1T --exact  --accept-source-agreements --accept-package-agreements  # brave
 winget install --id=9WZDNCRD29V9 --exact --accept-source-agreements --accept-package-agreements # Microsoft 365
 winget install --id=9NCBCSZSJRSB --exact --accept-source-agreements --accept-package-agreements # spotify
