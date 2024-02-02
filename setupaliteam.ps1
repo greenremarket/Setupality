@@ -7,12 +7,8 @@ if (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 # update help so Get-Help can provide help for any PowerShell instruction
  Update-Help
  
- Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
- 
-# Install PSWindowsUpdate
-Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
-Install-Module PSWindowsUpdate -Force -Confirm:$false
 
 # Get updates
 Get-WUInstall -MicrosoftUpdate -AcceptAll -AutoReboot | Out-Null
@@ -38,27 +34,30 @@ Remove-Item "Setup.msix"
 
 # Install apps with winget
 
-winget install --id=9MZ1SNWT0N5D --exact --accept-source-agreements --accept-package-agreements # Update powershell from 5.0 to latest
-
 # Dev tools
 winget install --id=vim.vim --exact # vim
 winget install --id=Git.Git --exact # git
+winget install --id=GitHub.GitHubDesktop --exact # Github Desktop
 winget install --id=OpenJS.NodeJS --exact # Node JS
 winget install --id=RubyInstallerTeam.RubyWithDevKit.3.2 --exact # ruby
 winget install --id=9NRWMJP3717K --exact  --accept-source-agreements --accept-package-agreements # python
 winget install --id=XP9KHM4BK9FZ7Q --exact --accept-source-agreements --accept-package-agreements # visual studio code
 
 # system tools and utils
-winget install Microsoft.PCManager --exact --accept-source-agreements --accept-package-agreements # Microsoft PC Manager (beta)
+winget install --id=Chocolatey.Chocolatey --exact --accept-source-agreements --accept-package-agreements # Choco
+winget install --id=Chocolatey.ChocolateyGUI --exact --accept-source-agreements --accept-package-agreements # HP PC HARDWARE DIAGNOSTICS WINDOW
+winget install  --id=Microsoft.PCManager --exact --accept-source-agreements --accept-package-agreements # Microsoft PC Manager (beta)
 winget install --id=9PC3H3V7Q9CH --exact --accept-source-agreements --accept-package-agreements # rufus
+winget install --id=9MZ1SNWT0N5D --exact --accept-source-agreements --accept-package-agreements # Update powershell from 5.0 to latest
 winget install --id=XPDM17HK323C4X --exact --accept-source-agreements --accept-package-agreements # TeamViewer
 winget install --id=XP89DCGQ3K6VLD --exact --accept-source-agreements --accept-package-agreements # Microsoft Power Toys
-winget install --id=XP8K2L36VP0QMB --exact --accept-source-agreements --accept-package-agreements # KeePassXC
 winget install --id=Notepad++.Notepad++ --exact # Notepad++
 
 # hardware
 winget install CPUID.CPU-Z
-winget install --id=9P4PNDG7L782 --exact --accept-source-agreements --accept-package-agreements # hp pc hardware diagnostics window
 
-# else
+# else 
+winget install --id=Asana.Asana --exact --accept-source-agreements --accept-package-agreements # asana
 winget install --id=XP8C9QZMS2PC1T --exact  --accept-source-agreements --accept-package-agreements  # brave
+winget install --id=9WZDNCRD29V9 --exact --accept-source-agreements --accept-package-agreements # Microsoft 365
+winget install --id=9P4PNDG7L782 --exact --accept-source-agreements --accept-package-agreements # HP PC HARDWARE DIAGNOSTICS WINDOW
