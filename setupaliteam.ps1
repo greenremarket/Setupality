@@ -41,11 +41,10 @@ winget install --id=GitHub.GitHubDesktop --exact # Github Desktop
 winget install --id=OpenJS.NodeJS --exact # Node JS
 winget install --id=RubyInstallerTeam.RubyWithDevKit.3.2 --exact # ruby
 winget install --id=9NRWMJP3717K --exact  --accept-source-agreements --accept-package-agreements # python
-winget install --id=XP9KHM4BK9FZ7Q --exact --accept-source-agreements --accept-package-agreements # visual studio code
 
 # system tools and utils
 winget install --id=Chocolatey.Chocolatey --exact --accept-source-agreements --accept-package-agreements # Choco
-winget install --id=Chocolatey.ChocolateyGUI --exact --accept-source-agreements --accept-package-agreements # HP PC HARDWARE DIAGNOSTICS WINDOW
+winget install --id=Chocolatey.ChocolateyGUI --exact --accept-source-agreements --accept-package-agreements # 
 winget install  --id=Microsoft.PCManager --exact --accept-source-agreements --accept-package-agreements # Microsoft PC Manager (beta)
 winget install --id=9PC3H3V7Q9CH --exact --accept-source-agreements --accept-package-agreements # rufus
 winget install --id=9MZ1SNWT0N5D --exact --accept-source-agreements --accept-package-agreements # Update powershell from 5.0 to latest
