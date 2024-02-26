@@ -43,8 +43,12 @@ winget install --id=RubyInstallerTeam.RubyWithDevKit.3.2 --exact # ruby
 winget install --id=9NRWMJP3717K --exact  --accept-source-agreements --accept-package-agreements # python
 winget install --id=XP9KHM4BK9FZ7Q --exact --accept-source-agreements --accept-package-agreements # visual studio code
 
-# containers, VMs and devops tools
+# activate Linux sub system + kali
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all
 winget install --id=9PKR34TNCV07  --exact --accept-source-agreements --accept-package-agreements # Kali Linux
+
+
+# containers, VMs and devops tools
 winget install --id=Docker.DockerDesktop --exact # Docker Desktop
 winget install --id=Kubernetes.minikube --exact # minikube
 winget install --id=Hashicorp.Terraform --exact # terraform
